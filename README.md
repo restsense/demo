@@ -1,7 +1,7 @@
 # RESTSense Demo
 This repository contains a demo showcasing a concrete use case of the RESTSense framework. These use cases are detailed in the subsequent sections.
 
-## Telemetry Powered Capacity Analysis
+## Telemetry-Based Capacity Analysis for LAMAs
 We want to test the capability of RESTSense to contribute to the process of Capacity Analysis. The goal of this showcase is to automatically infer the inputs required for the capacity analysis based on telemetry data. To do that, we have prepared a test architecture that consists of a set of microservices that are deployed using docker-compose.
 
 ### TestBed
