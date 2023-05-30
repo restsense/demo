@@ -12,7 +12,7 @@ The TestBed is a set of microservices that are deployed using docker-compose. Th
 
 Once deployed, we send a request to the entrypoint service (Microservice 1). In the request body, we introduce a model of the requests that should be made within the architecture. The model follows the following structure:
 
-```json
+```jsonc
 [
     {
         "url": "http://microservice-two/api/v1/request", // Microservice 1 -> Microservice 2
