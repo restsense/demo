@@ -1,0 +1,6005 @@
+[{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c43"
+  },
+  "name": "GET",
+  "span_id": "8ca6e56627ab94ce",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "f3ce3ce0cc5d50f7",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.175Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.617Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/orgs/oas-tools",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c44"
+  },
+  "name": "POST",
+  "span_id": "c70448d8be8654bc",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "f3ce3ce0cc5d50f7",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.191Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.689Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c45"
+  },
+  "name": "POST",
+  "span_id": "eead91e3037ffd84",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "f3ce3ce0cc5d50f7",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.196Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.744Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c46"
+  },
+  "name": "POST",
+  "span_id": "308bdc922fc97943",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "f3ce3ce0cc5d50f7",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.193Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.781Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c47"
+  },
+  "name": "POST",
+  "span_id": "f3ce3ce0cc5d50f7",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "34bd5c30cdab2436",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.120Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.811Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "55142"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "host": "microservice-three",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 883,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c49"
+  },
+  "name": "GET",
+  "span_id": "0f6b52138591295a",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "2151499627dae131",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.214Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.624Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c4a"
+  },
+  "name": "POST",
+  "span_id": "2151499627dae131",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "cef48089e2663015",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.187Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.661Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47202"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c4b"
+  },
+  "name": "GET",
+  "span_id": "f328516e952d0cca",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "4745a99b03312383",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.246Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.662Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c4c"
+  },
+  "name": "GET",
+  "span_id": "7417148d9e6034e9",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "ac2c9c979e9418e9",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.171Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.664Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c4d"
+  },
+  "name": "POST",
+  "span_id": "4745a99b03312383",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "c70448d8be8654bc",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.217Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.689Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39578"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c4e"
+  },
+  "name": "POST",
+  "span_id": "ac2c9c979e9418e9",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "ac4686cb267de788",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.120Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.708Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47200"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c4f"
+  },
+  "name": "GET",
+  "span_id": "bc7a7bf693c01d60",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "d8a886ba9fa8ae5f",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.289Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.710Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c50"
+  },
+  "name": "POST",
+  "span_id": "d8a886ba9fa8ae5f",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "eead91e3037ffd84",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.273Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.743Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39582"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c51"
+  },
+  "name": "GET",
+  "span_id": "ed21417768e34de0",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "236a908a75a2f787",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.272Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.748Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c52"
+  },
+  "name": "POST",
+  "span_id": "236a908a75a2f787",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "308bdc922fc97943",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.249Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.780Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39580"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c54"
+  },
+  "name": "POST",
+  "span_id": "cef48089e2663015",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "d16bd7f1c38335a8",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.109Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.662Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c55"
+  },
+  "name": "POST",
+  "span_id": "ac4686cb267de788",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "d16bd7f1c38335a8",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.104Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.709Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c56"
+  },
+  "name": "POST",
+  "span_id": "34bd5c30cdab2436",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "d16bd7f1c38335a8",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.111Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.811Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "method": "POST",
+        "host": "microservice-three:80",
+        "response_content_length_uncompressed": 6382,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f095a8f303ba50af78c57"
+  },
+  "name": "POST",
+  "span_id": "d16bd7f1c38335a8",
+  "trace_id": "a6944968e1866b0987dc3f814e205a50",
+  "parent_span_id": "",
+  "start_time": {
+    "$date": "2023-05-01T00:35:33.043Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:35:33.838Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.1",
+          "port": "58648"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://localhost:8080/api/v1/request",
+        "host": "localhost:8080",
+        "method": "POST",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64",
+        "request_content_length_uncompressed": 2504,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c5a"
+  },
+  "name": "GET",
+  "span_id": "dd2c333bdfec9826",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "5169f3bb11c59536",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.489Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.810Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c5b"
+  },
+  "name": "POST",
+  "span_id": "5169f3bb11c59536",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "3b69f692c2c08fb1",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.472Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.830Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39738"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 169,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c5c"
+  },
+  "name": "GET",
+  "span_id": "d84325cc7e6bbb89",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "5cee268662a2f5b1",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.423Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.832Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c5d"
+  },
+  "name": "POST",
+  "span_id": "5cee268662a2f5b1",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "083a0a5164c974ca",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.405Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.844Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47358"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 169,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c5e"
+  },
+  "name": "GET",
+  "span_id": "f9521279e6cbfb0d",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "5cb3f6ef99494b02",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.401Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.847Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c5f"
+  },
+  "name": "GET",
+  "span_id": "15a0133882acdf84",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "dccd36f55517f1ef",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.444Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.848Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c60"
+  },
+  "name": "POST",
+  "span_id": "5cb3f6ef99494b02",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "2914eabb09dcaf5a",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.384Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.863Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47356"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c61"
+  },
+  "name": "POST",
+  "span_id": "dccd36f55517f1ef",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "ff10b972a81df4e5",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.427Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.875Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39734"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c62"
+  },
+  "name": "GET",
+  "span_id": "571de694dbfe9bba",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "4c9657b751c8673f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.470Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.878Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c63"
+  },
+  "name": "POST",
+  "span_id": "4c9657b751c8673f",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "5366ae0821354db4",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.447Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.895Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39736"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c67"
+  },
+  "name": "POST",
+  "span_id": "3b69f692c2c08fb1",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "2fac08ae27a276b5",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.425Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.831Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c68"
+  },
+  "name": "POST",
+  "span_id": "2fac08ae27a276b5",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "4b4e964fa2b03d1a",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.384Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.856Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "55298"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "host": "microservice-three",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 886,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c69"
+  },
+  "name": "GET",
+  "span_id": "63bf42d725f3c6c3",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "2fac08ae27a276b5",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.417Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.861Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.5",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/orgs/oas-tools",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c6a"
+  },
+  "name": "POST",
+  "span_id": "ff10b972a81df4e5",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "2fac08ae27a276b5",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.422Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.876Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c6b"
+  },
+  "name": "POST",
+  "span_id": "5366ae0821354db4",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "2fac08ae27a276b5",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.424Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.896Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c6d"
+  },
+  "name": "POST",
+  "span_id": "083a0a5164c974ca",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "e6abe13cadce6cc3",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.380Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.845Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c6e"
+  },
+  "name": "POST",
+  "span_id": "e6abe13cadce6cc3",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.332Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.868Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.1",
+          "port": "58804"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://localhost:8080/api/v1/request",
+        "host": "localhost:8080",
+        "method": "POST",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64",
+        "request_content_length_uncompressed": 2510,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c6f"
+  },
+  "name": "POST",
+  "span_id": "4b4e964fa2b03d1a",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "e6abe13cadce6cc3",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.382Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.869Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "method": "POST",
+        "host": "microservice-three:80",
+        "response_content_length_uncompressed": 120,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09788f303ba50af78c70"
+  },
+  "name": "POST",
+  "span_id": "2914eabb09dcaf5a",
+  "trace_id": "90a55847370e8a1ff966ecbd8df42687",
+  "parent_span_id": "e6abe13cadce6cc3",
+  "start_time": {
+    "$date": "2023-05-01T00:36:03.376Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:03.870Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c73"
+  },
+  "name": "POST",
+  "span_id": "13061e7e185c4c5c",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "d2bff056702e7ec0",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.413Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.803Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c74"
+  },
+  "name": "POST",
+  "span_id": "d2bff056702e7ec0",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "842a0cb5d3580b63",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.390Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.826Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "55368"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "host": "microservice-three",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 888,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c75"
+  },
+  "name": "GET",
+  "span_id": "bc269c3ddda5a823",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "d2bff056702e7ec0",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.408Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.836Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/orgs/oas-tools",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c76"
+  },
+  "name": "POST",
+  "span_id": "fb4999e03cb775bf",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "d2bff056702e7ec0",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.415Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.856Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c77"
+  },
+  "name": "POST",
+  "span_id": "094d64d1250d67e3",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "d2bff056702e7ec0",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.411Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.872Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c78"
+  },
+  "name": "GET",
+  "span_id": "2023cdb6eb1c18eb",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "45f2d504bee94f8f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.329Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.768Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/orgs/oas-tools",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c79"
+  },
+  "name": "POST",
+  "span_id": "18d1c3e47ca0647e",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "45f2d504bee94f8f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.336Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.777Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c7a"
+  },
+  "name": "POST",
+  "span_id": "45f2d504bee94f8f",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "81d34559ac79682b",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.304Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.802Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "55410"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "host": "microservice-three",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 885,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c7b"
+  },
+  "name": "POST",
+  "span_id": "b1fdf2f55b0b3e03",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "45f2d504bee94f8f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.333Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.803Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c7f"
+  },
+  "name": "GET",
+  "span_id": "d4079b012b38701b",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "e5c8c3887fd24202",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.465Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.782Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c80"
+  },
+  "name": "POST",
+  "span_id": "e5c8c3887fd24202",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "13061e7e185c4c5c",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.447Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.803Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39806"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 168,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c81"
+  },
+  "name": "GET",
+  "span_id": "dfc99cbc5a0e4c7e",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "3b4052cbbaf41ca5",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.429Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.804Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c82"
+  },
+  "name": "POST",
+  "span_id": "3b4052cbbaf41ca5",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "383994fce6d0efcb",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.412Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.820Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47428"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 169,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c83"
+  },
+  "name": "GET",
+  "span_id": "8db3b0d9d331c911",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "370a066bd65f127d",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.409Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.820Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c84"
+  },
+  "name": "POST",
+  "span_id": "370a066bd65f127d",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "7d4416c63b41b230",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.390Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.836Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47426"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 168,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c85"
+  },
+  "name": "GET",
+  "span_id": "ffb4f6b876c5ff46",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "8990f0ed2a4f2111",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.481Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.839Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c86"
+  },
+  "name": "POST",
+  "span_id": "8990f0ed2a4f2111",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "fb4999e03cb775bf",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.467Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.855Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39808"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 169,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c87"
+  },
+  "name": "GET",
+  "span_id": "bafcd3df9b22c547",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "d739baa5825a8c1e",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.445Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.858Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c88"
+  },
+  "name": "POST",
+  "span_id": "d739baa5825a8c1e",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "094d64d1250d67e3",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.433Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.871Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39804"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c89"
+  },
+  "name": "GET",
+  "span_id": "c49fd1d331ec026e",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "ef4e0131c25f1ac8",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.343Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.701Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c8a"
+  },
+  "name": "POST",
+  "span_id": "ef4e0131c25f1ac8",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "1541d72e3850977a",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.323Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.719Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47470"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 169,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c8b"
+  },
+  "name": "GET",
+  "span_id": "3ea11da64951b6f6",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "e15e10d00ce66136",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.321Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.720Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c8c"
+  },
+  "name": "POST",
+  "span_id": "e15e10d00ce66136",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "1225a1189009efbd",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.304Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.735Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47468"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 168,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c8d"
+  },
+  "name": "GET",
+  "span_id": "04d74150a94c278b",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "c483232f683fd635",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.374Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.763Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c8e"
+  },
+  "name": "POST",
+  "span_id": "c483232f683fd635",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "18d1c3e47ca0647e",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.361Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.777Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39848"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 168,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c8f"
+  },
+  "name": "GET",
+  "span_id": "e50089a8b625c4e7",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "11adfdc920be2e01",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.361Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.778Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c90"
+  },
+  "name": "GET",
+  "span_id": "c8a751bac192c82f",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "0b21df4d1ed58779",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.388Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.779Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c91"
+  },
+  "name": "POST",
+  "span_id": "11adfdc920be2e01",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "b1fdf2f55b0b3e03",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.345Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.796Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39846"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c92"
+  },
+  "name": "POST",
+  "span_id": "0b21df4d1ed58779",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "50c0f469dc91cde1",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.375Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.809Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39850"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c94"
+  },
+  "name": "POST",
+  "span_id": "383994fce6d0efcb",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "d8087d48cb0fa19b",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.385Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.820Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c95"
+  },
+  "name": "POST",
+  "span_id": "d8087d48cb0fa19b",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.364Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.843Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.1",
+          "port": "58874"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://localhost:8080/api/v1/request",
+        "host": "localhost:8080",
+        "method": "POST",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64",
+        "request_content_length_uncompressed": 2514,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c96"
+  },
+  "name": "POST",
+  "span_id": "842a0cb5d3580b63",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "d8087d48cb0fa19b",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.388Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.845Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "method": "POST",
+        "host": "microservice-three:80",
+        "response_content_length_uncompressed": 120,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c97"
+  },
+  "name": "POST",
+  "span_id": "7d4416c63b41b230",
+  "trace_id": "1f749818e00792684011b77e5e7183fc",
+  "parent_span_id": "d8087d48cb0fa19b",
+  "start_time": {
+    "$date": "2023-05-01T00:36:12.385Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:12.848Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c98"
+  },
+  "name": "POST",
+  "span_id": "1541d72e3850977a",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "6b823a79b6007e1d",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.299Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.720Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c99"
+  },
+  "name": "POST",
+  "span_id": "6b823a79b6007e1d",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.273Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.745Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.1",
+          "port": "58874"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://localhost:8080/api/v1/request",
+        "host": "localhost:8080",
+        "method": "POST",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64",
+        "request_content_length_uncompressed": 2511,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c9a"
+  },
+  "name": "POST",
+  "span_id": "1225a1189009efbd",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "6b823a79b6007e1d",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.297Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.748Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09818f303ba50af78c9b"
+  },
+  "name": "POST",
+  "span_id": "81d34559ac79682b",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "6b823a79b6007e1d",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.302Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.804Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "method": "POST",
+        "host": "microservice-three:80",
+        "response_content_length_uncompressed": 120,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09868f303ba50af78c9e"
+  },
+  "name": "POST",
+  "span_id": "50c0f469dc91cde1",
+  "trace_id": "c901c229b040e19ec2c947775caf6a5c",
+  "parent_span_id": "45f2d504bee94f8f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:17.337Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:17.809Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca1"
+  },
+  "name": "GET",
+  "span_id": "88ad238cc3522ed5",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "6fac58712112a068",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.977Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.335Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca2"
+  },
+  "name": "POST",
+  "span_id": "6fac58712112a068",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "8108d501ba8c2993",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.961Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.354Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47526"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 169,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca3"
+  },
+  "name": "GET",
+  "span_id": "f30f3513d6a71d2e",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "c8432069b2a3c6a3",
+  "start_time": {
+    "$date": "2023-05-01T00:36:25.008Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.356Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca4"
+  },
+  "name": "POST",
+  "span_id": "c8432069b2a3c6a3",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "bb29eb2ba054e0ef",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.996Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.371Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39904"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 168,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca5"
+  },
+  "name": "GET",
+  "span_id": "2da27a377ab3d58d",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "a798fd5d91fc9bef",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.961Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.381Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca6"
+  },
+  "name": "POST",
+  "span_id": "a798fd5d91fc9bef",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "f3fe4f7ef2316b8a",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.945Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.400Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47524"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 170,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca7"
+  },
+  "name": "GET",
+  "span_id": "d791fa8b2b7a47a7",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "bd404ded2f3ecea2",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.993Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.402Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca8"
+  },
+  "name": "GET",
+  "span_id": "aac1336b93901490",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "6e7e8e9771575793",
+  "start_time": {
+    "$date": "2023-05-01T00:36:25.025Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.404Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78ca9"
+  },
+  "name": "POST",
+  "span_id": "bd404ded2f3ecea2",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "423fba546c993e9f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.980Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.431Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39902"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78caa"
+  },
+  "name": "POST",
+  "span_id": "6e7e8e9771575793",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "761ae8da38dd4ddd",
+  "start_time": {
+    "$date": "2023-05-01T00:36:25.009Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.454Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39906"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78cae"
+  },
+  "name": "POST",
+  "span_id": "8108d501ba8c2993",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "5673c0f74c35436c",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.942Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.356Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78caf"
+  },
+  "name": "POST",
+  "span_id": "5673c0f74c35436c",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.919Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.376Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.1",
+          "port": "58972"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://localhost:8080/api/v1/request",
+        "host": "localhost:8080",
+        "method": "POST",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64",
+        "request_content_length_uncompressed": 2513,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78cb0"
+  },
+  "name": "POST",
+  "span_id": "1e63244beee97a94",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "5673c0f74c35436c",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.943Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.393Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "method": "POST",
+        "host": "microservice-three:80",
+        "response_content_length_uncompressed": 120,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78cb1"
+  },
+  "name": "POST",
+  "span_id": "f3fe4f7ef2316b8a",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "5673c0f74c35436c",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.940Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.401Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78cb3"
+  },
+  "name": "POST",
+  "span_id": "bb29eb2ba054e0ef",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "79a1c9eb22c9b10f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.971Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.372Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78cb4"
+  },
+  "name": "POST",
+  "span_id": "79a1c9eb22c9b10f",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "1e63244beee97a94",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.945Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.392Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "55466"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "host": "microservice-three",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 885,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78cb5"
+  },
+  "name": "GET",
+  "span_id": "093ae4a4612c9e95",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "79a1c9eb22c9b10f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.968Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.393Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/orgs/oas-tools",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78cb6"
+  },
+  "name": "POST",
+  "span_id": "423fba546c993e9f",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "79a1c9eb22c9b10f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.969Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.432Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f098e8f303ba50af78cb7"
+  },
+  "name": "POST",
+  "span_id": "761ae8da38dd4ddd",
+  "trace_id": "e41ea1fc90653470882401f8c48bb7b9",
+  "parent_span_id": "79a1c9eb22c9b10f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:24.972Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:25.455Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cba"
+  },
+  "name": "GET",
+  "span_id": "2dbccc8205872e99",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "085f9c6264f989fe",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.691Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.068Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cbb"
+  },
+  "name": "POST",
+  "span_id": "085f9c6264f989fe",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "234ff5d946c4b460",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.673Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.087Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47592"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 170,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cbc"
+  },
+  "name": "GET",
+  "span_id": "b11128c73e56f563",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "ec216b383eaa35e5",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.750Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.090Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cbd"
+  },
+  "name": "POST",
+  "span_id": "ec216b383eaa35e5",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "b10477546605b17b",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.729Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.105Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39972"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 170,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cbe"
+  },
+  "name": "GET",
+  "span_id": "29ffdf597d3ca1f5",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "2b73b206ae260d01",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.709Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.108Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cbf"
+  },
+  "name": "POST",
+  "span_id": "2b73b206ae260d01",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "6f34d615b2c0bd36",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.694Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.122Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47594"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 169,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cc0"
+  },
+  "name": "GET",
+  "span_id": "5069d7f3203099fc",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "2783a6e68e3a8da9",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.729Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.124Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cc1"
+  },
+  "name": "POST",
+  "span_id": "2783a6e68e3a8da9",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "71cec3056aa3d3b3",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.713Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.138Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39970"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cc2"
+  },
+  "name": "GET",
+  "span_id": "a1ceff16fab053ab",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "bba3766927b51b44",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.765Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.163Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cc3"
+  },
+  "name": "POST",
+  "span_id": "bba3766927b51b44",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "d5602404609787a7",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.755Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.178Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "39974"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cc6"
+  },
+  "name": "POST",
+  "span_id": "234ff5d946c4b460",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "2095c1a084b8a695",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.669Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.086Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cc7"
+  },
+  "name": "POST",
+  "span_id": "2095c1a084b8a695",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.648Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.109Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.1",
+          "port": "59040"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://localhost:8080/api/v1/request",
+        "host": "localhost:8080",
+        "method": "POST",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64",
+        "request_content_length_uncompressed": 2515,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cc8"
+  },
+  "name": "POST",
+  "span_id": "6f34d615b2c0bd36",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "2095c1a084b8a695",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.671Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.123Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cc9"
+  },
+  "name": "POST",
+  "span_id": "2d8f01e0a7298270",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "2095c1a084b8a695",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.672Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.124Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "method": "POST",
+        "host": "microservice-three:80",
+        "response_content_length_uncompressed": 120,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78ccc"
+  },
+  "name": "POST",
+  "span_id": "b10477546605b17b",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "c8ea310c5e40615c",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.695Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.105Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78ccd"
+  },
+  "name": "POST",
+  "span_id": "c8ea310c5e40615c",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "2d8f01e0a7298270",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.673Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.124Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "55534"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "host": "microservice-three",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 887,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cce"
+  },
+  "name": "GET",
+  "span_id": "2e4085710f2cfefe",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "c8ea310c5e40615c",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.691Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.125Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/orgs/oas-tools",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78ccf"
+  },
+  "name": "POST",
+  "span_id": "71cec3056aa3d3b3",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "c8ea310c5e40615c",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.693Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.139Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f09978f303ba50af78cd0"
+  },
+  "name": "POST",
+  "span_id": "d5602404609787a7",
+  "trace_id": "c754bcc67a3aba739a4b804e5581ab6b",
+  "parent_span_id": "c8ea310c5e40615c",
+  "start_time": {
+    "$date": "2023-05-01T00:36:33.697Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:34.178Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cd4"
+  },
+  "name": "GET",
+  "span_id": "c431cf49e02e9197",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "8f19d9a8efa58534",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.550Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.914Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cd5"
+  },
+  "name": "POST",
+  "span_id": "8f19d9a8efa58534",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "4d7d94a320557885",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.536Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.923Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47652"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 170,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cd6"
+  },
+  "name": "GET",
+  "span_id": "ef26e91ec61855d0",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "a14b090ac1035300",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.576Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.925Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cd7"
+  },
+  "name": "POST",
+  "span_id": "a14b090ac1035300",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "bb515facd3326890",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.552Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.937Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "47654"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 169,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cd8"
+  },
+  "name": "GET",
+  "span_id": "073d4d1a5ba336a3",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "8751a1f80d14044b",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.617Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.938Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cd9"
+  },
+  "name": "POST",
+  "span_id": "8751a1f80d14044b",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "f77998420bb00595",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.606Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.949Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "40034"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 168,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cda"
+  },
+  "name": "GET",
+  "span_id": "d493a40faf81de32",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "b163968762737c01",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.604Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.949Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "response_content_length_uncompressed": 80,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cdb"
+  },
+  "name": "POST",
+  "span_id": "b163968762737c01",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "e0566025363cb855",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.592Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.960Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "40032"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 172,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cdc"
+  },
+  "name": "GET",
+  "span_id": "215eb93fd385c7ea",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "b945c12007905ef1",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.590Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:42.055Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/users/alesancor1",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cdd"
+  },
+  "name": "POST",
+  "span_id": "b945c12007905ef1",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "0e762152fc99a91f",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.577Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:42.069Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "40030"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "host": "microservice-two",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 166,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0f"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78cdf"
+  },
+  "name": "POST",
+  "span_id": "4d7d94a320557885",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "0551b91f2d12471e",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.529Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.924Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78ce0"
+  },
+  "name": "POST",
+  "span_id": "0551b91f2d12471e",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.511Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.949Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.1",
+          "port": "59100"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://localhost:8080/api/v1/request",
+        "host": "localhost:8080",
+        "method": "POST",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64",
+        "request_content_length_uncompressed": 2519,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78ce1"
+  },
+  "name": "POST",
+  "span_id": "bb515facd3326890",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "0551b91f2d12471e",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.533Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.950Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78ce2"
+  },
+  "name": "POST",
+  "span_id": "c651475c7f58d8d4",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "0551b91f2d12471e",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.534Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.979Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "method": "POST",
+        "host": "microservice-three:80",
+        "response_content_length_uncompressed": 120,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f08e8f763118528853e9d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78ce5"
+  },
+  "name": "POST",
+  "span_id": "f77998420bb00595",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "06c19b66fcf88f35",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.571Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.950Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78ce6"
+  },
+  "name": "POST",
+  "span_id": "06c19b66fcf88f35",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "c651475c7f58d8d4",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.536Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.978Z"
+  },
+  "attributes": {
+    "source": {
+      "net": {
+        "host": {
+          "ip": "::ffff:172.19.0.3",
+          "port": "80"
+        }
+      }
+    },
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "::ffff:172.19.0.4",
+          "port": "55594"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-three/api/v1/request",
+        "host": "microservice-three",
+        "method": "POST",
+        "user_agent": "axios/1.4.0",
+        "request_content_length_uncompressed": 891,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78ce7"
+  },
+  "name": "POST",
+  "span_id": "e0566025363cb855",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "06c19b66fcf88f35",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.568Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.979Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 100,
+        "status_code": 401,
+        "status_text": "UNAUTHORIZED"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78ce8"
+  },
+  "name": "GET",
+  "span_id": "da22a6407d35cab7",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "06c19b66fcf88f35",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.563Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:41.982Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "140.82.121.6",
+          "port": "443"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "https://api.github.com/orgs/oas-tools",
+        "method": "GET",
+        "host": "api.github.com:443",
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644f099e8f303ba50af78ce9"
+  },
+  "name": "POST",
+  "span_id": "0e762152fc99a91f",
+  "trace_id": "61fa3a93d182593af9884a932ff950ed",
+  "parent_span_id": "06c19b66fcf88f35",
+  "start_time": {
+    "$date": "2023-05-01T00:36:41.566Z"
+  },
+  "end_time": {
+    "$date": "2023-05-01T00:36:42.070Z"
+  },
+  "attributes": {
+    "target": {
+      "net": {
+        "peer": {
+          "ip": "172.19.0.2",
+          "port": "80"
+        }
+      }
+    },
+    "operation": {
+      "http": {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "host": "microservice-two:80",
+        "response_content_length_uncompressed": 1513,
+        "status_code": 200,
+        "status_text": "OK"
+      }
+    }
+  },
+  "metadata": {
+    "scope": "@opentelemetry/instrumentation-http@0.38.0",
+    "resource_id": {
+      "$oid": "644f095af763118528853f0d"
+    },
+    "schema_url": ""
+  },
+  "__v": 0
+}]

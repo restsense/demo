@@ -1,0 +1,70 @@
+[
+    {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "body": {
+            "url": "https://api.github.com/users/octocat",
+            "headers": {
+                "Accept": "application/vnd.github+json",
+                "Authorization": "Bearer <GH_TOKEN>"
+            }
+        }
+    },
+    {
+        "url": "http://microservice-two/api/v1/request",
+        "method": "POST",
+        "body": {
+            "url": "https://api.github.com/users/octocat",
+            "headers": {
+                "Accept": "application/vnd.github+json",
+                "Authorization": "Bearer <GH_TOKEN>"
+            }
+        }
+    },
+    {
+        "url": "http://microservice-three/api/v1/request",
+        "method": "POST",
+        "body": [
+            {
+                "url": "https://api.github.com/orgs/github",
+                "headers": {
+                    "Accept": "application/vnd.github+json",
+                    "Authorization": "Bearer <GH_TOKEN>"
+                }
+            },
+            {
+                "url": "http://microservice-two/api/v1/request",
+                "method": "POST",
+                "body": {
+                    "url": "https://api.github.com/users/octocat",
+                    "headers": {
+                        "Accept": "application/vnd.github+json",
+                        "Authorization": "Bearer <GH_TOKEN>"
+                    }
+                }
+            },
+            {
+                "url": "http://microservice-two/api/v1/request",
+                "method": "POST",
+                "body": {
+                    "url": "https://api.github.com/users/octocat",
+                    "headers": {
+                        "Accept": "application/vnd.github+json",
+                        "Authorization": "Bearer <GH_TOKEN>"
+                    }
+                }
+            },
+            {
+                "url": "http://microservice-two/api/v1/request",
+                "method": "POST",
+                "body": {
+                    "url": "https://api.github.com/users/octocat",
+                    "headers": {
+                        "Accept": "application/vnd.github+json",
+                        "Authorization": "Bearer <GH_TOKEN>"
+                    }
+                }
+            }
+        ]
+    }
+]

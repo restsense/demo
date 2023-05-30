@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "644f08e8f763118528853e9d"
+  },
+  "service": {
+    "name": "microservice-one",
+    "ip_addr": "172.19.0.4",
+    "version": "unknown"
+  },
+  "__v": 0,
+  "process": {
+    "command": "/opt/app/index.js",
+    "command_args": [
+      "/usr/local/bin/node",
+      "-r",
+      "@restsense/agent/tracing",
+      "/opt/app/index.js"
+    ],
+    "executable": {
+      "name": "node",
+      "path": "/usr/local/bin/node"
+    },
+    "owner": "root",
+    "pid": "26",
+    "runtime": {
+      "description": "Node.js",
+      "name": "nodejs",
+      "version": "16.13.0"
+    }
+  },
+  "telemetry": {
+    "sdk": {
+      "language": "nodejs",
+      "name": "opentelemetry",
+      "version": "1.12.0"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "644f095af763118528853f0d"
+  },
+  "service": {
+    "name": "microservice-three",
+    "ip_addr": "172.19.0.3",
+    "version": "unknown"
+  },
+  "__v": 0,
+  "process": {
+    "command": "/opt/app/index.js",
+    "command_args": [
+      "/usr/local/bin/node",
+      "-r",
+      "@restsense/agent/tracing",
+      "/opt/app/index.js"
+    ],
+    "executable": {
+      "name": "node",
+      "path": "/usr/local/bin/node"
+    },
+    "owner": "root",
+    "pid": "26",
+    "runtime": {
+      "description": "Node.js",
+      "name": "nodejs",
+      "version": "16.13.0"
+    }
+  },
+  "telemetry": {
+    "sdk": {
+      "language": "nodejs",
+      "name": "opentelemetry",
+      "version": "1.12.0"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "644f095af763118528853f0f"
+  },
+  "service": {
+    "name": "microservice-two",
+    "ip_addr": "172.19.0.2",
+    "version": "unknown"
+  },
+  "__v": 0,
+  "process": {
+    "command": "/opt/app/index.js",
+    "command_args": [
+      "/usr/local/bin/node",
+      "-r",
+      "@restsense/agent/tracing",
+      "/opt/app/index.js"
+    ],
+    "executable": {
+      "name": "node",
+      "path": "/usr/local/bin/node"
+    },
+    "owner": "root",
+    "pid": "26",
+    "runtime": {
+      "description": "Node.js",
+      "name": "nodejs",
+      "version": "16.13.0"
+    }
+  },
+  "telemetry": {
+    "sdk": {
+      "language": "nodejs",
+      "name": "opentelemetry",
+      "version": "1.12.0"
+    }
+  }
+}]

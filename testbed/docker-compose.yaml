@@ -1,0 +1,42 @@
+version: "3.8"
+services:
+    microservice-one:
+        container_name: microservice-one
+        image: alesancor1/api-requester
+        environment:
+            RESTSENSE_SERVICE_NAME: microservice-one
+            RESTSENSE_COLLECTOR_URL: host.docker.internal:4317
+        ports:
+            - "8080:80"
+        command: 
+            - /bin/sh
+            - -c
+            - |
+              npm i @restsense/agent
+              node -r @restsense/agent/tracing index.js
+
+    microservice-two:
+        container_name: microservice-two
+        image: alesancor1/api-requester
+        environment:
+            RESTSENSE_SERVICE_NAME: microservice-two
+            RESTSENSE_COLLECTOR_URL: host.docker.internal:4317
+        command: 
+            - /bin/sh
+            - -c
+            - |
+              npm i @restsense/agent
+              node -r @restsense/agent/tracing index.js        
+        
+    microservice-three:
+        container_name: microservice-three
+        image: alesancor1/api-requester
+        environment:
+            RESTSENSE_SERVICE_NAME: microservice-three
+            RESTSENSE_COLLECTOR_URL: host.docker.internal:4317
+        command: 
+            - /bin/sh
+            - -c
+            - |
+              npm i @restsense/agent
+              node -r @restsense/agent/tracing index.js
